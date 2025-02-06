@@ -37,4 +37,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: run test
       run: |
-          python -m unittest tests/testfizzbuzz.py
+          python -m unittest testfizzbuzz.py
