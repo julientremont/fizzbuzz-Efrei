@@ -1,8 +1,8 @@
+import fizzbuzz1 as fb1
 
 def main():
-    print('Hello, World!')
-    return 0
-
+    for i in range(1, 101):
+        resultat = fb1.fizzbuzStage1(i)
+        print(resultat)
 if __name__ == '__main__':
     main()
-
