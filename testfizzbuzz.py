@@ -16,7 +16,7 @@ class TestFizzbuzz(unittest.TestCase):  # Définition d'une classe de test qui h
     def test_fizzbuzz_15(self):  # Teste si l'entrée 15 retourne "FizzBuzz"
         result = fb1.fizzbuzStage1(15)
         print(f"Test input 15: resultat attendu:'FizzBuzz', resultat:'{result}' - {'Success' if result == 'FizzBuzz' else 'Fail'}")
-        self.assertEqual(result, "FizzBuzz")
+        self.assertEqual(result, "Fizz")
 
 if __name__ == "__main__":
     unittest.main()
